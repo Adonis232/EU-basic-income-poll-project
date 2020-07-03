@@ -1,4 +1,7 @@
-Python==3.7.3
-pandas==0.24.2
-matplotlib==3.1.2
-seaborn==0.9.0
+pandas
+requests
+sqlalchemy, create_engine
+BeautifulSoup
+regex
+numpy
+modin
