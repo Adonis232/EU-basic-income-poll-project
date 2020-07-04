@@ -1,7 +1,6 @@
 import argparse
 from p_acquisitions import m_acquisitions
 from p_analysis import m_analysis
-from p_reporting import m_reporting
 from p_wrangling import m_wrangling
 
 def argument_parser():

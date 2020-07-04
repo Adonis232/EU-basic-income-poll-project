@@ -111,18 +111,17 @@ job_name_df.to_csv('../raw_data/jobs_dataframe.csv')
 #country codes
 
 country_list = df_country['country_code'].unique().tolist()
-country_list
+
 
 
 
 url = 'https://www.iban.com/country-codes' 
 raw_codes = pd.read_html(url,header=0)[0]
-raw_codes
 
 #only keeping columns that are needed
 country_codes = raw_codes.drop(columns=['Alpha-3 code','Numeric'])
 country_code = country_codes.rename(columns={'Country':'country','Alpha-2 code':'country_code'})
-country_code
+
 
 country_code.to_csv('../raw_data/country_codes.csv',index=False)
 
