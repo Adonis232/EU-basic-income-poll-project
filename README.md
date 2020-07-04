@@ -1,50 +1,55 @@
-\# EU Basic income poll analysis 
-=========================================================
- ![](https://images.app.goo.gl/mwXEqNopQjxYWTv6A) 
+# EU Basic income poll analysis 
+
+ ![](https://frepple.com/wp-content/uploads/business-poll-survey2-2401-1080x495.jpg) 
  
+
+
+
 This project tries to answer if europeans agree with the possibility of european goberments
  implementing a basic income or vital income towards its citizens.
  
  **This project is just a trial and some of the data has been touch by third parties to make us 
- work on different skills learned during _[Ironhack's]_(https://www.ironhack.com/en)  first module.**
+ work on different skills learned during [Ironhack](https://www.ironhack.com/en)  first module.**
  
+
+## Libraries used
  
- \## Libraries used
- ------------------
- \* Pandas
- \* Numpy
- \* Regex
- \* Sql Alchemy
- \* Beautiful Soup
- \* Modin
+ \* Pandas\
+ \* Numpy\
+ \* Regex\
+ \* Sql Alchemy\
+ \* Beautiful Soup\
+ \* Modin\
  \* Request
  
- \## Tools to write code
- -----------------------
+
+## Tools to write code
+ 
  
  * Jupyter Notebook
  >(Used to scratch code)
  * Pycharm 
  >(To make the model)
 
-## Data used on this project
------------------------------
 
-Api
+## Data used on this project
+
+
+ Api
 
 >(http://dataatwork.org/data/)
 
-Database
+ Database
 
 >(http://www.potacho.com/files/ironhack/raw_data_project_m1.db)
  
-Country codes
+ Country codes
 
 >(https://www.iban.com/country-codes)
 
 
 ## Development
----------------
+
 
 This pipeline is based on Potacho's project template, the main problem I encountered
 during this project was making the API caller work properly and efficiently
@@ -53,8 +58,10 @@ Because of this delay I ran out out time to make more than challenge one
 and still having the first challenge done, its needs work to be done on it.
 
 
+
+
 ## TO DO
-----------
+
 
 This project needs :
 
