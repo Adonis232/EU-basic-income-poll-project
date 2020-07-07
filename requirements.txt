@@ -1,7 +1,7 @@
-pandas
-requests
-sqlalchemy, create_engine
+Pandas
+Requests
+Sqlalchemy
 BeautifulSoup
-regex
-numpy
-modin
+Regex
+Numpy
+Modin
